@@ -1,1 +1,3 @@
 .idea
+transactions-job-backup/target
+target/*
