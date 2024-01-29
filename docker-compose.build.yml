@@ -1,0 +1,10 @@
+version: '3'
+services:
+  maven-builder:
+    image: maven:3.8.5-openjdk-11-slim
+    volumes:
+      - .:/usr/fairmoney
+    working_dir: /usr/fairmoney
+    command: [ "mvn", "package" ]
+    environment:
+      - MAVEN_OPTS=-Xmx512m

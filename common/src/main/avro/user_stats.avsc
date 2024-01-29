@@ -1,0 +1,9 @@
+{
+  "namespace": "com.fairmoney",
+  "type": "record",
+  "name": "UserStats",
+  "fields": [
+    {"name": "user_id", "type": "int"},
+    {"name": "total_transactions_count", "type": "long"}
+  ]
+}
